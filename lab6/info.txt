@@ -1,0 +1,16 @@
+Make an artificial DNA sequence of 200 to 400 bases in length in which to simulate 3 to 4 transposable elements.
+
+Implement a software app which can detect the positions of these transposable elements (start, end) within the created DNA sequence.
+
+Note: Intersect 2 or 3 transposers to see how the algorithm behaves in these situations.
+
+
+download a fasta file from ncbi that contains an entire genome (bacterial/plant genome up to 6mb)
+change your app such that it may find new transposomes across the entire genome
+note the inverted repeats this time are unknown
+proposal:
+one way to solve this task would be for you to use 2 different sliding windows s1 and s2 
+the first s1 should slide across the entire genome with a step of one at each new position for s1 the s2 sliding window should search for the second pattern up to the end of the genome
+note that the second pattern should be the content found in s1, inverted and what you have to search is the complementary part of this inversion
+
+note that the minimum length between s1 and s2 must be at least 100 bases
