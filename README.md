@@ -1,2 +1,2 @@
-# proteintranslators
-A python script that translates a sequence of mrna to protein
+# Bioinformatics lab work
+All of the work done in labs
