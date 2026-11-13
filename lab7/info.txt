@@ -1,0 +1,28 @@
+DNA restriction enzymes - able to link to a specific part of the dna and cut the dna inside that pattern or one of the sides depending on the restriction enzyme type
+
+digest a piece of text based on a restriction enzyme 
+migrate those pieces to a gel created last lab
+
+1. take an arbitary dna sequence from NCBI (either a bacterial genome or a viral genome to use 5 restriction enzymes)
+(enzyme name, recognized sequence, cleavage site)
+
+        5' GAATTC 5'---G     AATTC---3'
+EcoRI   3' CTTAAG 3'---CTTAA G---5'
+
+        5'GGATCC 5'---G     GATCC---3'
+BamHI   3'CCTAGG 3'---CCTAG G---5'
+
+        5'AAGCTT 5'---A     AGCTT---3'
+HindIII 3'TTCGAA 3'---TTCGA A---5'
+
+TagI    5'TCGA 5'---T    CGA---3'
+        3'AGCT 3'---AGC  T---5'
+
+HaeIII  5'GGCC 5'---GG CC---3'
+        3'CCGG 3'---CC GG---5'
+
+Input: recognized sequence for any restriction enzyme a DNA to be digested
+Output: 1. no of cleavages for any restriction enzymes
+2. cleavage position and length
+
+the output should also take into consideration combinations of different restriction enzymes
